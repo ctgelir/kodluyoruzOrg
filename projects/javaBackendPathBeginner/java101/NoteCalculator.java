@@ -1,6 +1,6 @@
-package cihat.main;
 import java.util.Scanner;
-/*
+
+/**
   Write a program that takes the exam scores of  Mathematics, Physics, Chemistry, Turkish, History, Music courses
 from the user and calculates the averages and prints them on the screen.
 
@@ -9,6 +9,8 @@ the screen should write "Passed the Course", if it is less, "Failed in the Cours
 
   Note: If and Else will not be used...
   Note: Expect perfect user inputs..
+
+  @author  Cihat Gelir cihatgelir35@gmail.com
  */
 public class NoteCalculator {
     public static void main(String[] args) {
