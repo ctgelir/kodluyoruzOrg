@@ -1,3 +1,4 @@
+package cihat.javaBackendBeginner.java101;
 import java.util.Scanner;
 
 /**
