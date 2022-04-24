@@ -1,4 +1,4 @@
-package cihat.javaBackendBeginner.java101;
+package cihat.javaBackendBeginner.java101.basicConcepts;
 
 import java.util.Scanner;
 
