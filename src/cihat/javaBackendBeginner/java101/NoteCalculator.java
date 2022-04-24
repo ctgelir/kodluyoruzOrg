@@ -11,7 +11,7 @@ the screen should write "Passed the Course", if it is less, "Failed in the Cours
   Note: If and Else will not be used...
   Note: Expect perfect user inputs..
 
-  @author  Cihat Gelir cihatgelir35@gmail.com
+  @author  Cihat Gelir
  */
 public class NoteCalculator {
     public static void main(String[] args) {
@@ -41,5 +41,6 @@ public class NoteCalculator {
         System.out.println("Average is :" + avg);
 
         System.out.println((avg > 60) ? "Passed the Course" : "Failed the Course");
+        scanner.close();
     }
 }
