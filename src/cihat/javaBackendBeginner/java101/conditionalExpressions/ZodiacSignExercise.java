@@ -2,6 +2,7 @@ package cihat.javaBackendBeginner.java101.conditionalExpressions;
 
 import java.util.Scanner;
 
+/**@author Cihat Gelir*/
 public class ZodiacSignExercise {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

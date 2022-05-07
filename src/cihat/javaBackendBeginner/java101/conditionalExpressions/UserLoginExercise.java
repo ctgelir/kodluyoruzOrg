@@ -2,7 +2,7 @@ package cihat.javaBackendBeginner.java101.conditionalExpressions;
 
 import java.util.Scanner;
 /**
- * @author cihat
+ * @author Cihat Gelir
  */
 public class UserLoginExercise {
 	public static void main(String[] args) {
