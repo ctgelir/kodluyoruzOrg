@@ -18,7 +18,7 @@ public class DivisibleByFourExercise {
 		}
 		System.out.printf("Sum of numbers that are divisible with 4: " + sum);
 		
-		
+		sc.close();
 		
 	}
 }

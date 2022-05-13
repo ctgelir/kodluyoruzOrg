@@ -39,5 +39,6 @@ public class ZodiacSignExercise {
 						   capricorn   ? "capricorn"   :
 	    				   aquarius    ? "aquarius"    :
 						   pisces      ? "pisces"      : "Invalid input");
+		scan.close();
 	}
 }

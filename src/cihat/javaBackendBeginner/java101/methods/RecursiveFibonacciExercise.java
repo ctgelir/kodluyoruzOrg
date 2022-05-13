@@ -23,6 +23,6 @@ public class RecursiveFibonacciExercise {
 		int step = sc.nextInt();
 		
 		makeFibonacciSeries(step);
-		
+		sc.close();
 	}
 }

@@ -20,5 +20,6 @@ public class MinMaxExercise {
 		}
 		System.out.println("Max ->" + max);
 		System.out.println("Min ->" + min);
+		sc.close();
 	}
 }

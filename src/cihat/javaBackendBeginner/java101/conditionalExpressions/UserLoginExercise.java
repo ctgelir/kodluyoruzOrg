@@ -33,7 +33,7 @@ public class UserLoginExercise {
 		}else {
 			System.out.println("Wrong username and password.");
 		}
-		
+		scan.close();
 		
 		
 	}

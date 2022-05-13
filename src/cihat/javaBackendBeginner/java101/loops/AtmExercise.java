@@ -61,6 +61,7 @@ public class AtmExercise {
                     System.out.println("Your Remaining Rights : " + right);
                 }
             }
+         input.close();
         }
     }
 }

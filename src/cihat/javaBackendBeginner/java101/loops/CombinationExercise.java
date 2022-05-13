@@ -26,5 +26,6 @@ public class CombinationExercise {
 		int r = sc.nextInt();
 		
 		System.out.println("Combination: " + CombinationExercise.combin(n, r));
+		sc.close();
 	}
 }

@@ -16,6 +16,7 @@ public class WheatherExercise {
 		
 		System.out.printf((temperature < 5) ? "Go ski." : 
 						  (temperature <= 15) ? "Go sinema." : 
-					      (temperature <= 25) ? "Go picnic." : "Go swimming.");                                                          
+					      (temperature <= 25) ? "Go picnic." : "Go swimming.");                 
+		scan.close();
 	}
 }

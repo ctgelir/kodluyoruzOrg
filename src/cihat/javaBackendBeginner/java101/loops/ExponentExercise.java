@@ -22,6 +22,7 @@ public class ExponentExercise {
 		int r = sc.nextInt();
 		
 		System.out.println(exp(a,r));
+		sc.close();
 	}
 	
 }

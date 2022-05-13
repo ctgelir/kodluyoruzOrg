@@ -26,5 +26,6 @@ public class SortingNumbersExercise {
 		float mid = n1 + n2 + n3 - max - min;
 		
 		System.out.println(min + " < " + mid + " < " + max);
+		scan.close();
 	}
 }

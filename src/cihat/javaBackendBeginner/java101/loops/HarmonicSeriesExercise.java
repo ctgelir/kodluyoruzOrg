@@ -18,5 +18,6 @@ public class HarmonicSeriesExercise {
 		int userInput = sc.nextInt();
 		
 		System.out.printf("Harmonic Series: %.5f" , harmonicSeriesCalculator(userInput));
+		sc.close();
 	}
 }

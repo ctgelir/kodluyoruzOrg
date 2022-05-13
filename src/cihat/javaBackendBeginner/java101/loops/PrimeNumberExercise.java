@@ -28,5 +28,6 @@ public class PrimeNumberExercise {
 		int end = sc.nextInt();
 		
 		displayPrimeNumbersBetween(start, end);
+		sc.close();
 	}
 }

@@ -51,5 +51,6 @@ public class ChineseZodiacExercise {
 		default:
 			break;
 		}
+		sc.close();
 	}
 }

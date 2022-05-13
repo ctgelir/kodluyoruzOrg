@@ -30,5 +30,6 @@ public class PalindromeNumberExercise {
 		int userInput = sc.nextInt();
 		
 		System.out.println(isPalindrome(userInput) ? "It is palindrome number.": "It is not a palindrome number.");
+		sc.close();
 	}
 }

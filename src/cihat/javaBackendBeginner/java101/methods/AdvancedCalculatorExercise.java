@@ -16,6 +16,7 @@ public class AdvancedCalculatorExercise {
 	            result += number;
 	        }
 	        System.out.println("Result : " + result);
+	        scan.close();
 	    }
 
 	 static void minus() {
@@ -35,6 +36,7 @@ public class AdvancedCalculatorExercise {
 	     }
 	
 	     System.out.println("Result : " + result);
+	     scan.close();
 	 }
 
 	 static void times() {
@@ -56,6 +58,7 @@ public class AdvancedCalculatorExercise {
 	     }
 	
 	     System.out.println("Result : " + result);
+	     scan.close();
 	 }
 
 	 static void divided() {
@@ -79,6 +82,7 @@ public class AdvancedCalculatorExercise {
 	     }
 	
 	     System.out.println("Result : " + result);
+	     scan.close();
 	 }
 
 	 static void power() {
@@ -94,6 +98,7 @@ public class AdvancedCalculatorExercise {
 	     }
 	
 	     System.out.println("Result : " + result);
+	     scan.close();
 	 }
 
 	 static void factorial() {
@@ -107,6 +112,7 @@ public class AdvancedCalculatorExercise {
 	     }
 	
 	     System.out.println("Result : " + result);
+	     scan.close();
 	 }
 
 	 static void modulo() {
@@ -123,6 +129,7 @@ public class AdvancedCalculatorExercise {
 			 
 			 System.out.println("Result: " + userNum % modulo);
 		 }
+		 sc.close();
 	 }
 	 
 	 static void areaPerimeter() {
@@ -134,6 +141,7 @@ public class AdvancedCalculatorExercise {
 		 int s2 = sc.nextInt();
 		 
 		 System.out.println("Area: " + s1*s2 + " -- " + "Perimeter: " + 2*(s1+s2));
+		 sc.close();
 	 }
 	 
 	 
@@ -185,5 +193,6 @@ public class AdvancedCalculatorExercise {
                     System.out.println("Invalid option. Please select correctly.");
 	            }
 	        } while (select != 0);
+        scan.close();
 	    }
 }

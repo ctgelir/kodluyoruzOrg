@@ -24,5 +24,6 @@ public class StarTriangleExercise {
 		System.out.print("Number of step: ");
 		int userInput = sc.nextInt();
 		makeTriangle(userInput);
+		sc.close();
 	}
 }

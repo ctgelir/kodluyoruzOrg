@@ -14,5 +14,6 @@ public class DivisibleByFourAndFiveExercise {
 		for (int i = 1; i <= inp; i*=5) {
 			System.out.println(i);
 		}
+		sc.close();
 	}
 }

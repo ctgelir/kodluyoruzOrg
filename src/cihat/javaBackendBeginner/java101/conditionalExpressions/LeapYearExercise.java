@@ -12,5 +12,6 @@ public class LeapYearExercise {
 		boolean isLeapYear = year%100 == 0 ? (year % 400 == 0 ? true : false) : (year%4  == 0 ? true: false);
 		
 		System.out.println(year + (isLeapYear ? " is a leap year." : " is not a leap year."));
+		sc.close();
 	}
 }

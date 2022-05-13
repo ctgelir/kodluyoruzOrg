@@ -19,6 +19,6 @@ public class DivisibleByTwelveExercise {
 		}
 		float avg = sum / numberOfInteger;
 		System.out.printf("Average of number that are divisible with 12 from  0 to " + inp + ": %.2f", avg);
-		
+		sc.close();
 	}
 }

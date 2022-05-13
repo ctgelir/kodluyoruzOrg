@@ -33,6 +33,6 @@ public class FlightTicketPriceExercise {
 		discountedPrice = (tripType == 1) ? discountedPrice : (discountedPrice - discountedPrice* 0.2f) * 2f;
 		
 		System.out.printf("Price : %.2f" + " TL", discountedPrice);
-		
+		sc.close();
 	}
 }

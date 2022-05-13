@@ -35,6 +35,7 @@ public class CoursePassExercise {
 		
 		System.out.printf((avg > 55) ? "Passed the course!\n" : "Failed the course!\n");
 		System.out.printf("gpu : %.2f", avg);
+		scan.close();
 		
 	}
 }

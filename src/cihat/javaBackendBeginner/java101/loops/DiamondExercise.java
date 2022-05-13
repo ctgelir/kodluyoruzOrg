@@ -31,5 +31,6 @@ public class DiamondExercise {
 		System.out.print("Number: ");
 		int userInput = sc.nextInt();		
 		makeDiamond(userInput);
+		sc.close();
 	}
 }

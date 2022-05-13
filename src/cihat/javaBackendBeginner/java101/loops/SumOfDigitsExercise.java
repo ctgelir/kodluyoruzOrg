@@ -25,5 +25,6 @@ public class SumOfDigitsExercise {
 		int userInput = sc.nextInt();
 		
 		System.out.println("Sum of digit: " + sumOfDigit(userInput));
+		sc.close();
 	}
 }
