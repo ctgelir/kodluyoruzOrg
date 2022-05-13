@@ -47,6 +47,7 @@ public class ClosestNumbersExercise {
 		int userInput = sc.nextInt();
 		
 		closest(arr, userInput);
+		sc.close();
 				
 	}
 }
