@@ -21,3 +21,11 @@ tmp/
 local.properties
 .loadpath
 .factorypath
+
+
+## Intellij
+# Default ignored files
+/shelf/
+/workspace.xml
+.idea/
+.settings/
